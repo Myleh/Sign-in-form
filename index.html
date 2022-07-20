@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Sign in Form">
+	<meta name="author" content="Admin">
+	<title>Sign in Form</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<form action="#" class="login">
+			<div class="login__container">
+				<ul class="linls">
+					<li class="links__item"><a href="#" class="links__link links-link--active"> Sign in</a></li>
+					<li class="links__item"> <a href="#" class="links__link">Join us</a></li>
+				</ul>
+				<div class="field">
+					<label for="name" class="field__label">Username</label>
+					<input type="text" name="name" class="field__items" tabindex="1">
+				</div>
+				<div class="field">
+					<label for="email" class="field__label"   >Email</label>
+					<input type="email" name="email" class="field__items"required tabindex="2">
+				</div>
+				<div class="field">
+					<label for="password" class="field__label">Password</label>
+					<input type="password" name="password" class="field__items" tabindex="3">
+				</div>
+				<div class="field">
+					<input type="checkbox" name="keep" class="field__checkbox" id="keep" checked tabindex="4">
+					<label for="keep" class="field__label field__label--small" >Keep me signed in</label>
+				</div>
+				<button type="submit" class="button">Sign in</button>
+				<ul class="login__linls">
+					<li class="login__items">
+					    <a href="javascript:void(0)" class="login__link">Forgot password</a> 
+					</li>
+					<li class="login__items">
+						<a href="javascript:void(0)" class="login__link"> Create an account</a>
+					</li>
+				</ul>
+		</form>
+	</div>
+
+
+</body>
+</html>
